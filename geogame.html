@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Panorama Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Географическая Игра</h1>
+  
+  <div class="start-button">
+    <button id="startGameButton" onclick="startGame()">Начать Игру</button>
+  </div>
+
+  <div class="panorama-container" id="panoramaContainer">
+    <iframe id="panoramaFrame" src="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="timer" id="timer">00:00</div>
+  </div>
+
+  <div class="button-container" id="buttonContainer" style="display: none;"></div>
+
+  <div class="result-display" id="resultDisplay"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
